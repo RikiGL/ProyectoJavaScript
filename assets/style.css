@@ -91,7 +91,8 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 10px;  
+    margin-left: 2px;  
+    
 }
 
 .container__input {
@@ -133,11 +134,26 @@ h1 {
     font-size: 24px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
-}
-.container__contrasena {
-    flex: 0.52; /* Hace que el input ocupe la mitad del espacio disponible */
+    flex: 0.51; /* Hace que el input ocupe la mitad del espacio disponible */
     margin: 0; /* Elimina margenes innecesarios */
 }
+
+#borrar {
+    background-color: red; /* Cambia el fondo a rojo */
+    color: white; /* Mantiene el texto blanco para que sea visible */
+}
+
+.mensaje__descripcion {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+    opacity: 0.8;
+    text-align: left;
+    margin-left: 2rem; /* Ajusta este valor para alinear el mensaje con el título */
+}
+
+
 
 
 
